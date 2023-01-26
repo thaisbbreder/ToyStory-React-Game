@@ -1,13 +1,100 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("/public/assets/images/background.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.banner {
+  margin-top: 25px;
+}
+.banner > img {
+  max-width: 100px;
+}
+
+.card {
+  width: 100px;
+  height: 140px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.front,
+.back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px;
+  backface-visibility: hidden;
+}
+
+.flip {
+  transform: rotateY(180deg);
+}
+
+.icon {
+  width: 150px;
+  height: 150px;
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 10px;
+}
+.front {
+  background-color: #184d94;
+  transform: rotateY(180deg);
+}
+
+.back {
+  background-color: #1b2688;
+  color: rgb(218, 218, 218);
+  font-size: 10px;
+  /*  background-image: url("/public/assets/images/background.jpg"); */
+  /* background-size: cover; */
+  /*   display:none; */
+}
+
+#gameOver {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /*  background-image: url("/public/assets/images/backCard.jpg"); */
+  /*   background-size: cover; */
+  color: rgb(213, 222, 247);
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+}
+
+#restart {
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#gameBoard {
+  max-width: 800px;
+  display: grid;
+  grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px;
 }
