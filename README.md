@@ -1,6 +1,7 @@
 <h1 align="center"> Jogo da Memória Toy Story </h1>
 
- ![page](https://user-images.githubusercontent.com/99916975/221666245-b466fdc3-6448-427e-b78d-cfff46d1a5fb.png)
+ ![page](https://user-images.githubusercontent.com/99916975/221666245-b466fdc3-6448-427e-b78d-cfff46d1a5fb.png) 
+![pagemobile](https://user-images.githubusercontent.com/99916975/221678951-56e9e631-d258-42c0-8062-2156a4cb378b.png)
 
 
 #  Índice 
@@ -10,7 +11,7 @@
 # Sobre o projeto 
  🔎 No inicio de 2022 desenvolvi um jogo da memoria com html, css e js. No decorrer do ano comecei a estudar React e migrei todo o projeto para React para poder treinar.
  
-  [Visite o site](https://weather-forecast-react-thaisbbreder.vercel.app/)
+  [Quer jogar?]( https://toy-story-react-game.vercel.app/)
    
  # Tecnologias  
  ✔️ ReactJs </br>
@@ -20,6 +21,8 @@
 
 # Resultado 
 🚀  O resultado foi um jogo da memória básico mas bem feito e responsivo!
+</br> </br>
+ 
  
 
 # Contato  
