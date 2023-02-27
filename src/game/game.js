@@ -4,16 +4,16 @@ let game = {
   secondCard: null,
 
   characters: [
-    "andy",
     "alien",
     "buzz",
     "jessie",
     "woody",
     "bear",
     "toys",
-    "dino",
     "bew",
     "woody1",
+    "dino",
+    "andy",
   ],
 
   cards: null,
